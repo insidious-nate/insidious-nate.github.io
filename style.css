@@ -3,9 +3,9 @@ body {
     background-color: #cccccc;
   }
   .mmxv {
-    margin: 25px;
-    height: 250px;
-    width: 250px;
+    margin: 45px;
+    height: 350px;
+    width: 350px;
     color: rgb(248, 246, 246);
     background-image: URL(
         'marcelline.png');
