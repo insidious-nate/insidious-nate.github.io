@@ -12,6 +12,7 @@ function save(){
     user_p[0]="password";
     user_n[1]="cj";
     user_p[1]="pswrd";
+    logIn=false;
     var user_name= document.getElementById("u_id").value;
     localStorage.setItem("storedItem1", user_name); // save the item
     var user_pswrd= document.getElementById("u_pswrd").value;
@@ -24,6 +25,7 @@ function save(){
 function login(){
     localStorage.getItem("storedItem1");
     localStorage.getItem("storedItem2");
+    logIn=false;
     //temp_usr_n[0]="";
     //temp_usr_p[0]="";
     //save();
@@ -33,17 +35,21 @@ function login(){
         if(user_n[i]==temp_usr_n[0] && user_p[i]==temp_usr_p[0]){
             console.log("login successfull!");
             logIn=true;
-            window.open("admin/index.html");
-            if(logIn){
-                //window.close();
-            }
-            
             
         }
         else{
-            console.log("refresh, and try again.");
-            console.log(storedItem1);
-            console.log(storedItem2);
+            //alert('invalid login. \n refresh, and try again.');
+            //console.log("refresh, and try again.");
+            //console.log(storedItem1);
+            //console.log(storedItem2);
         }
+    }
+    if(logIn){
+        window.open("admin/index.html");
+        alert('login successful');
+        //logIn=false;
+        //window.close();
+    } else {
+        alert('invalid login. \n refresh, and try again.');
     }
 }
