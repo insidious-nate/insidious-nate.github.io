@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background-image: url("slices-of-watermelon-2210x1473.jpg");
+}
+div {
+    
+}
+#storePage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    background-color: black;
+    text-align: left;
+    color: blueviolet;
+    padding-top: 19%;
+    width: 65%;
+    height: 650px;
+    /*background-image: URL(
+        'water\ death.jpg');*/
+}
+#purchase {
+    
+}

@@ -1,18 +1,16 @@
 body {
-    text-align: center;
+    background-image: url("water death.jpg");
     background-color: #cccccc;
-}
-form {
-    display: inline-block;
-}
-div {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 19%;
-    width: 40%;
+  }
+  .mmxv {
+    margin: 45px;
     height: 350px;
-    background-color: aqua;
-    /*background-image: URL(
-        'water\ death.jpg');*/
-}
+    width: 350px;
+    color: rgb(248, 246, 246);
+    background-image: URL(
+        'marcelline.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15%;
+  }
+    

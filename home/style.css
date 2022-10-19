@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background-color: #cccccc;
+}
+form {
+    display: inline-block;
+}
+div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 19%;
+    width: 40%;
+    height: 350px;
+    background-color: gray;
+    /*background-image: URL(
+        'water\ death.jpg');*/
+}
