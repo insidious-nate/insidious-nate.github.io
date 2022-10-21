@@ -1,24 +1,34 @@
 body {
     text-align: center;
-    background-image: url("slices-of-watermelon-2210x1473.jpg");
+    background-image: url("watermelon-background-hd-1920x1200.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 div {
-    
-}
-#storePage {
+    /*background-color: black;*/
+    color: black;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 5%;
-    background-color: black;
+}
+#storePage {
+    
+    
     text-align: left;
-    color: blueviolet;
+    border: 3px solid white;
     padding-top: 19%;
     width: 65%;
-    height: 650px;
+    height: 850px;
     /*background-image: URL(
         'water\ death.jpg');*/
 }
-#purchase {
-    
+.itemid {
+    text-align: left;
+
+}
+.purchase {
+    padding-top: 9%;
+    width: 65%;
+    height: 350px;
 }
