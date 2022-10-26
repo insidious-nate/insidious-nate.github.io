@@ -6,5 +6,5 @@ function store() {
 
 }
 function checkOut () {
-    window.open("payement.html");
+    //window.open("payement.html");
 }

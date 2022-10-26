@@ -17,7 +17,6 @@ div {
     
     text-align: center;
     border: 3px solid white;
-    padding-top: 19%;
     width: 65%;
     height: 850px;
     /*background-image: URL(
@@ -38,6 +37,23 @@ div {
     height: 320px;
     /*background-color: green;*/
 }
+.content img{
+    width: 5%;
+    height: 25px;
+    float: right;
+    
+}
+.content {
+    padding-top: 11%;
+}
+.content a {
+    float: right;
+    top: 0%;
+    right: 0%;
+    color: white;
+
+}
+
 #package1 {
     vertical-align: text-top;
     height: 33%;

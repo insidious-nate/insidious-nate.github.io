@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-image: url("watermelon-background-hd-1920x1200.jpg");
+    background-image: url("slices-of-watermelon-2210x1473.jpg");
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
@@ -17,7 +17,7 @@ div {
     
     text-align: center;
     border: 3px solid white;
-    padding-top: 19%;
+    padding-top: 5%;
     width: 65%;
     height: 850px;
     /*background-image: URL(
@@ -37,6 +37,18 @@ div {
     width: 100%;
     height: 320px;
     /*background-color: green;*/
+}
+.shoppingCart img{
+    float: right;
+    width: 5%;
+    height: 25px;
+}
+.shoppingCart p {
+    float: right;
+    top: 0%;
+    right: 0%;
+    color: white;
+
 }
 #package1 {
     vertical-align: text-top;

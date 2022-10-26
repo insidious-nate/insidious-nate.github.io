@@ -45,7 +45,7 @@ function login(){
         }
     }
     if(logIn){
-        window.open("admin/index.html");
+        window.open("../admin/storePage.html");
         alert('login successful');
         //logIn=false;
         //window.close();
