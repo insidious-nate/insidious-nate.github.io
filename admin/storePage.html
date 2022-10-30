@@ -6,7 +6,7 @@
         </title>
         <link rel="stylesheet" href="store.css">
     </head>
-    <body>
+    <body onload="store()">
         <div id="storePage">
             <div class="shoppingCart">
                 <img src="154fdf2f2759676a96e9aed653082276.png">
@@ -39,7 +39,7 @@
             <div class="purchase">
                 <input type="button" value="checkOut"
                 onclick="location.href='payement.html';">
-                <button onclick="store()">
+                <button onclick="checkOut()">
                     shopping cart
                 </button>
             </div>
