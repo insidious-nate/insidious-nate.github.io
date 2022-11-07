@@ -2,6 +2,7 @@ body {
     text-align: center;
     background-image: url("water death.jpg");
     background-color: #cccccc;
+    padding-top: 3%;
     
   }
   div {
@@ -12,7 +13,8 @@ body {
   }
   .mmxv {
     
-    margin: 45px;
+    /*margin: 45px;*/
+    /*padding-top: 5%;*/
     height: 550px;
     width: 550px;
     color: rgb(248, 246, 246);

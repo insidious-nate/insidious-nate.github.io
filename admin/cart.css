@@ -1,0 +1,12 @@
+div {
+    margin-left: auto;
+    margin-right: auto;
+}
+#checkOut {
+    background-color: azure;
+    padding-top: 15%;
+    text-align: center;
+    border: 3px solid grey;
+    width: 45%;
+    height: 650px;
+}
