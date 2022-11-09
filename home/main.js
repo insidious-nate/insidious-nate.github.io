@@ -6,6 +6,7 @@ var storedItem1 = localStorage.getItem("storedItem1");
 var storedItem2 = localStorage.getItem("storedItem2");
 var logIn = false;
 
+
 function save(){
     
     user_n[0]="admin";
@@ -26,27 +27,21 @@ function login(){
     localStorage.getItem("storedItem1");
     localStorage.getItem("storedItem2");
     logIn=false;
-    //temp_usr_n[0]="";
-    //temp_usr_p[0]="";
-    //save();
-
+    
     for(let i=0; i<=user_n.length; i++){
         
         if(user_n[i]==temp_usr_n[0] && user_p[i]==temp_usr_p[0]){
             console.log("login successfull!");
+            //console.log(storedItem2);
             logIn=true;
             
         }
-        else{
-            //alert('invalid login. \n refresh, and try again.');
-            //console.log("refresh, and try again.");
-            //console.log(storedItem1);
-            //console.log(storedItem2);
-        }
     }
     if(logIn){
-        window.open("../admin/storePage.html");
+        
         alert('login successful');
+        window.open("../admin/storePage.html");
+        //window.open("../admin/storePage.html","_self");
         //logIn=false;
         //window.close();
     } else {
