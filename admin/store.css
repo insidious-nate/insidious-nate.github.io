@@ -51,18 +51,33 @@ hr {
 #package1 {
     vertical-align: text-top;
     height: 33%;
+    width: 33%;
+    float: left;
     /*background-color: aqua;*/
 
+}
+#package1 img {
+    width: 60%;
 }
 #package2 {
     vertical-align: text-bottom;
     height: 33%;
+    width: 33%;
+    float: left;
     /*background-color: white;*/
+}
+#package2 img {
+    width: 60%;
 }
 #package3 {
     vertical-align: sub;
     height: 33%;
+    width: 33%;
+    float: left;
     /*background-color: blue;*/
+}
+#package3 img {
+    width: 60%;
 }
 .purchase {
     text-align: center;
