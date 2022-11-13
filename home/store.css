@@ -30,6 +30,29 @@ div {
     /*background-image: URL(
         'water\ death.jpg');*/
 }
+#storePage a {
+    text-decoration: none;
+}
+.logo {
+    float: left;
+    color: white;
+}
+.content img{
+    width: 4%;
+    height: 30px;
+    float: right;
+    
+}
+.content {
+    padding-top: 7%;
+}
+.content a {
+    float: right;
+    top: 0%;
+    right: 0%;
+    color: black;
+
+}
 .itemId {
     text-align: center;
     width: 100%;
@@ -57,22 +80,6 @@ div {
 	width: 100%;
 	height: 90px;
 }
-.content img{
-    width: 4%;
-    height: 30px;
-    float: right;
-    
-}
-.content {
-    padding-top: 7%;
-}
-.content a {
-    float: right;
-    top: 0%;
-    right: 0%;
-    color: black;
-
-}
 
 #package1 {
     vertical-align: text-top;
@@ -83,7 +90,7 @@ div {
 
 }
 #package1 img {
-    width: 60%;
+    width: 50%;
 }
 #package2 {
     vertical-align: text-bottom;
@@ -93,7 +100,7 @@ div {
     /*background-color: white;*/
 }
 #package2 img {
-    width: 60%;
+    width: 50%;
 }
 #package3 {
     vertical-align: sub;
@@ -103,5 +110,5 @@ div {
     /*background-color: blue;*/
 }
 #package3 img {
-    width: 60%;
+    width: 50%;
 }
