@@ -39,7 +39,7 @@ function login(){
     }
     if(logIn){
         
-        alert('login successful');
+        //alert('login successful');
         window.open("../admin/storePage.html");
         //window.open("../admin/storePage.html","_self");
         //logIn=false;
