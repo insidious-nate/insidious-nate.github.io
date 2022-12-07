@@ -2,6 +2,7 @@ body {
     text-align: center;
     /*background-image: url("watermelon-background-hd-1920x1200.jpg");*/
     background-color: grey;
+    background-image: url("watermelon-background-hd-1920x1200.jpg");
     background-position: center;
     background-repeat: no-repeat;
     height: 955%;
@@ -22,9 +23,9 @@ div {
 }
 #storePage {
     
-    background-image: url("watermelon-background-hd-1920x1200.jpg");
+    background-color: white;
     text-align: center;
-    border: 3px solid white;
+    border: 3px solid black;
     width: 75%;
     height: 900px;
     /*background-image: URL(
@@ -35,7 +36,7 @@ div {
 }
 .logo {
     float: left;
-    color: white;
+    color: black;
 }
 .content img{
     width: 4%;
@@ -57,7 +58,7 @@ div {
     text-align: center;
     width: 100%;
     height: 500px;
-    color: white;
+    color: black;
     /*background-color: aquamarine;*/
 
 }
@@ -67,7 +68,7 @@ div {
     
 }
 .itemId p {
-    color: white;
+    color: black;
 }
 .purchase {
     text-align: center;
